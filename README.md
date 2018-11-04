@@ -2,12 +2,12 @@
 A greedy algorithm for grouping people during social events for higher overall comfort.
 
 <h3>About (Function)</h3>
-Social gatherings usually have guests are divided into groups of x people (such as for sitting around a table). However, many organisers fail to accomplish this task logically and instead ask the guests to divide amongst themselves, assuming that this arrangement would be optimsal. However, such an arrangement makes it awkward for people with little friends/connetions to find a comfortable position and is geneally just a pain for people to go through.<br>
+Social gatherings usually have guests are divided into groups of X people (such as for sitting around a table). However, many organisers fail to accomplish this task logically and instead ask the guests to divide amongst themselves, assuming that this arrangement would be optimsal. However, such an arrangement makes it awkward for people with little friends/connetions to find a comfortable position and is geneally just a pain for people to go through.<br>
 
-As such, <b>this algorithm aims to divide n people into groups of at most x people such that the overall comfort level is the relatively high while ensuring that the program runs in a reasonable amount of time.</b>
+As such, <b>this algorithm aims to divide N people into groups of at most X people such that the overall comfort level is the relatively high while ensuring that the program runs in a reasonable amount of time.</b>
 <br><br>
 This algorithm has a time complexity of O(N^2) and a space complexity of O(N^2).<br>
-Where n is the number of guests. <br>
+Where N is the number of guests. <br>
 Thus it is suitable for <b>N < 10000.</b> <br>
 
 <h3>Installation and Usage</h3>
