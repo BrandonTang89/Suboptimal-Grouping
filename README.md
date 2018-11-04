@@ -6,8 +6,8 @@ Social gatherings usually have guests are divided into groups of x people (such 
 
 As such, <b>this algorithm aims to divide n people into groups of at most x people such that the overall comfort level is the relatively high while ensuring that the program runs in a reasonable amount of time.</b>
 <br><br>
-This algorithm has a time complexity of O(ElogE + N^2) and a space complexity of O(N^2).<br>
-Where n is the number of guests and x is the number of guests per group. <br>
+This algorithm has a time complexity of O(N^2) and a space complexity of O(N^2).<br>
+Where n is the number of guests. <br>
 Thus it is suitable for <b>N < 10000.</b> <br>
 
 <h3>Installation and Usage</h3>
