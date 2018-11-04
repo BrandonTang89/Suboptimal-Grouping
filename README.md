@@ -77,5 +77,5 @@ Notes:<br>
   <li>The graph is converted from a directional to bidirectional graph by adding w(u --> v) and w(v --> u).</li>
   <li>Edges are greedily picked and nodes are grouped together through the use of the union find disjoint set data structure.</li>
   <li>If 2 groups are to be joined together to form a group with greater than x nodes, the group is not formed</li>
-  <li>Note: The main algorithm is coded in C++ to maximise speed while the human readable input to machine readable input is handled in python (because it was easier to code that in python).</li>
+  <li>Note: The main algorithm is coded in C++ to maximise speed while the human readable input/output to machine readable input/output and vice versa is handled in python (because it was easier to code that in python).</li>
 </ul>
