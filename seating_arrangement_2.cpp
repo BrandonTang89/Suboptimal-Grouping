@@ -3,7 +3,8 @@
 #include <vector>
 #include <fstream>
 #include <cmath>
-#include <bits/stdc++.h>
+#include <map>
+#include <cstring>
 using namespace std;
 
 int pax_per_group;
