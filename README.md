@@ -63,7 +63,7 @@ Notes:<br>
 <ul>
   <li><b> !!IMPT!! Ensure there are exactly n+1 lines (i.e. get data on everyone)</b></li>
   <li><b>All names are one word only and cannot be numbers!! </b></li>
-  <li>In linux, you need to make seating_arrangement executable first using "chmod +x seating_arrangement"</li>
+  <li>In linux, you need to make seating_arrangement_2 executable first using "chmod +x seating_arrangement_2"</li>
 </ul>
 
 <h3>Mechanism (Technical)</h3>
