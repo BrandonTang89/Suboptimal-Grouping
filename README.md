@@ -11,7 +11,7 @@ This algorithm has a time complexity of O(N^2 * 2^X) and a space complexity of O
   <li>Where N is the number of guests and X is a factor determined by the algorithm such that about 100 million operations are done (less than 10 seconds on a 2018 CPU). </li>
   <li>The higher X is, the more optimal the output, but also the more it takes.</li>
   </ul>
-This algorithm is suitable for <b>N < 10000.</b> due to space and time constraints<br> <i>Note: N >= 10000 will cause a buffer overflow crash</i><br>
+This algorithm is suitable for <b>N < 10000.</b> due to space and time constraints.<br> <i>Note: N >= 10000 will cause a buffer overflow crash.</i><br>
 
 <h3>Installation and Usage</h3>
 <i>Python 3.7+ is required if intending to run on linux</i><br>
