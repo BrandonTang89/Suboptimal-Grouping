@@ -6,10 +6,10 @@ Social gatherings usually have guests are divided into groups of X people (such 
 
 As such, <b>this algorithm aims to divide N people into groups of at most X people such that the overall comfort level is the relatively high while ensuring that the program runs in a reasonable amount of time.</b>
 <br><br>
-This algorithm has a time complexity of O(N^2 * 2^X) and a space complexity of O(N^2).<br>
+This algorithm has a time complexity of O(N^2 * 2^B) and a space complexity of O(N^2).<br>
 <ul>
-  <li>Where N is the number of guests and X is a factor determined by the algorithm such that about 100 million operations are done (less than 10 seconds on a 2018 CPU). </li>
-  <li>The higher X is, the more optimal the output, but also the more it takes.</li>
+  <li>Where N is the number of guests and B is a factor determined by the algorithm such that about 100 million operations are done (less than 10 seconds on a 2018 CPU). </li>
+  <li>The higher B is, the more optimal the output, but also the more time it takes.</li>
   </ul>
 This algorithm is suitable for <b>N < 10000.</b> due to space and time constraints.<br> <i>Note: N >= 10000 will cause a buffer overflow crash.</i><br>
 
@@ -78,7 +78,8 @@ Notes:<br>
   <li>Thus the weight of each edge [g --> i] is 
   <img src="https://latex.codecogs.com/svg.latex?\dpi{300}&space;\large&space;\frac{R_{i}}{\sum&space;R_{i}}" title="\large \frac{R_{i}}{\sum R_{i}}" /></li>
   <li>The graph is converted from a directional to bidirectional graph by adding w(u --> v) and w(v --> u).</li>
-  <li>Edges are greedily picked and nodes are grouped together through the use of the union find disjoint set data structure.</li>
+  <li>A bit mask is used for the first b edges to be added, while the rest are greedily picked.</li>
+  <li>Nodes are grouped together through the use of the union find disjoint set data structure.</li>
   <li>If 2 groups are to be joined together to form a group with greater than x nodes, the group is not formed</li>
   <li>Note: The main algorithm is coded in C++ to maximise speed while the human readable input/output to machine readable input/output and vice versa is handled in python (because it was easier to code that in python).</li>
 </ul>
