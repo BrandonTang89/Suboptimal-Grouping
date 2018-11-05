@@ -87,3 +87,38 @@ Notes:<br>
   <li>If 2 groups are to be joined together to form a group with greater than x nodes, the group is not formed</li>
   <li>Note: The main algorithm is coded in C++ to maximise speed while the human readable input/output to machine readable input/output and vice versa is handled in python (because it was easier to code that in python).</li>
 </ul>
+
+<b>Large Example</b>
+<pre>
+30 6
+bethany_chong_yu_lin	6	boey_sze_min_jeanelle	1	lau_shin_en_joelle	1	nur_farisah_syahirah_bte_m_s	1	tan_yong_xin	1	hyunji_lim	1	sammi_sim_yan_jing	1
+boey_sze_min_jeanelle	4	bethany_chong_yu_lin	1	hyunji_lim	1	sammi_sim_yan_jing	1	nur_farisah_syahirah_bte_m_s	1				
+cheah_hoe_teng	5	chua_ren_kai	1	lee_wei_jie_jonathan	1	peh_zi_jian	1	yuan_yi_cheng_jasper	1	timothy_josef_ho	1		
+cheong_chi_yun_estene	5	goh_yu_xiang_ranier	1	lau_shin_en_joelle	1	quek_ying_en_delaney	1	rachel_tan_jin_hui	1	ng_rui_yan_rena	1		
+chua_ren_kai	6	tang_yu_han_brandon	1	goh_yu_xiang_ranier	1	cheah_hoe_teng	1	huang_kai_yao	1	ng_eswen	1	teo_li_zhong	1
+elena_goh_ching_ping	2	cheong_chi_yun_estene	1	xiong_zihan	1								
+goh_yu_xiang_ranier	6	huang_kai_yao	1	lee_wei_jie_jonathan	1	simeon_yap_sheng_kiat	1	sng_sok_merng_dillon	1	simeon_yap_sheng_kiat	1	chua_ren_kai	1
+huang_kai_yao	6	tang_yu_han_brandon	1	chua_ren_kai	1	goh_yu_xiang_ranier	1	ng_hung_wei	1	timothy_josef_ho	1	lee_wei_jie_jonathan	1
+hyunji_lim	4	sammi_sim_yan_jing	1	boey_sze_min_jeanelle	1	bethany_chong_yu_lin	1	nur_farisah_syahirah_bte_m_s	1				
+juhi_s_premnadh	3	suraboyini_snehita_joyce	1	syna_sharma	1	bethany_chong_yu_lin	1						
+lau_shin_en_joelle	3	tan_yong_xin	1	bethany_chong_yu_lin	1	ng_eswen	1						
+lee_wei_jie_jonathan	4	goh_yu_xiang_ranier	1	huang_kai_yao	1	simeon_yap_sheng_kiat	1	sng_sok_merng_dillon	1				
+ng_eswen	4	tang_yu_han_brandon	1	chua_ren_kai	1	tan_yong_xin	1	lau_shin_en_joelle	1				
+ng_hung_wei	3	lee_wei_jie_jonathan	1	peh_zi_jian	1	sng_sok_merng_dillon	1						
+ng_rui_yan_rena	4	rachel_tan_jin_hui	1	quek_ying_en_delaney	1	cheong_chi_yun_estene	1	peh_zi_jian	1				
+nur_farisah_syahirah_bte_m_s	4	bethany_chong_yu_lin	1	boey_sze_min_jeanelle	1	hyunji_lim	1	sammi_sim_yan_jing	1				
+peh_zi_jian	4	timothy_josef_ho	1	huang_kai_yao	1	lee_wei_jie_jonathan	1	ng_rui_yan_rena	1				
+quek_ying_en_delaney	3	ng_rui_yan_rena	1	rachel_tan_jin_hui	1	cheong_chi_yun_estene	1						
+rachel_tan_jin_hui	3	ng_rui_yan_rena	1	quek_ying_en_delaney	1	cheong_chi_yun_estene	1						
+sammi_sim_yan_jing	4	hyunji_lim	1	bethany_chong_yu_lin	1	boey_sze_min_jeanelle	1	nur_farisah_syahirah_bte_m_s	1				
+simeon_yap_sheng_kiat	3	sng_sok_merng_dillon	1	timothy_josef_ho	1	teo_li_zhong	1						
+sng_sok_merng_dillon	3	timothy_josef_ho	1	tan_yong_xin	1	simeon_yap_sheng_kiat	1						
+suraboyini_snehita_joyce	2	juhi_s_premnadh	1	syna_sharma	1								
+syna_sharma	2	suraboyini_snehita_joyce	1	juhi_s_premnadh	1								
+tan_yong_xin	4	tang_yu_han_brandon	1	lau_shin_en_joelle	1	ng_eswen	1	bethany_chong_yu_lin	1				
+tang_yu_han_brandon	5	teo_li_zhong	1	cheah_hoe_teng	1	chua_ren_kai	1	goh_yu_xiang_ranier	1	ng_eswen	1		
+teo_li_zhong	4	chua_ren_kai	1	tang_yu_han_brandon	1	timothy_josef_ho	1	cheah_hoe_teng	1				
+timothy_josef_ho	5	yuan_yi_cheng_jasper	1	sng_sok_merng_dillon	1	peh_zi_jian	1	lee_wei_jie_jonathan	1	huang_kai_yao	1		
+xiong_zihan	1	elena_goh_ching_ping	1										
+yuan_yi_cheng_jasper	5	simeon_yap_sheng_kiat	1	sng_sok_merng_dillon	1	teo_li_zhong	1	chua_ren_kai	1	cheah_hoe_teng	1		
+</pre>
