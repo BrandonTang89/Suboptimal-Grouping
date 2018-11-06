@@ -26,6 +26,12 @@ Files required:
   <li>seating_arrangement_2 for linux OR seating_arrangement_2.exe for windows</li>
 </ol>
 
+<h4>Running the program</h4>
+<ol>
+  <li>Format input as stated below into "human_in.txt"</li>
+  <li>Run "main_linux.py" for linux or "main_windows.exe" for windows</li>
+</ol>
+
 <h4>Input Format</h4>
 <ol>
   <li>The first line contains 2 integars, "the total number of guests [n]" and "the number of guest per group [x]"</li>
@@ -54,24 +60,19 @@ goh_yu_xiang_ranier 3 chua_ren_kai 1 huang_kai_yao 1 cheong_chi_yun_estene 1
 huang_kai_yao 3 goh_yu_xiang_ranier 1 chua_ren_kai 1 cheah_hoe_teng 1
 </pre>
   
-<h4>Collecting the data</h4>
-Data for this can be collected through a simple survey.<br>
-E.g.
-<pre>https://docs.google.com/forms/d/e/1FAIpQLSf4oH4CtIbe3vVPAGfDO4xeAFMzXXen8OvSN6lIEeLMYj5WDg/viewform</pre>
-
-The survey results are then formatted into a spreadsheet and can be copy pasted into the input file
-
-<h4>Running the program</h4>
-<ol>
-  <li>Format input as stated above into "human_in.txt"</li>
-  <li>Run main_linux.py for linux or "main_windows.exe" for windows</li>
-</ol>
-Notes:<br>
+ Notes:<br>
 <ul>
   <li><b> !!IMPT!! Ensure there are exactly n+1 lines (i.e. get data on everyone)</b></li>
   <li><b>All names are one word only and cannot be numbers!! </b></li>
   <li>In linux, you need to make seating_arrangement_2 executable first using "chmod +x seating_arrangement_2"</li>
 </ul>
+
+<h4>Advice on Collecting the data</h4>
+Data for this can be collected through a simple survey.<br>
+E.g.
+<pre>https://docs.google.com/forms/d/e/1FAIpQLSf4oH4CtIbe3vVPAGfDO4xeAFMzXXen8OvSN6lIEeLMYj5WDg/viewform</pre>
+
+The survey results are then formatted into a spreadsheet and can be copy pasted into the input file
 
 <h3>Mechanism (Technical)</h3>
 <ul>
